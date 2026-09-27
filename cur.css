@@ -88,6 +88,14 @@ body{
     display: none;
 }
 
+.contact{
+    padding-left: 20px;
+}
+
+.fa-solid{
+    margin-right: 5px;
+}
+
 
 
 @media (max-width: 640px){
