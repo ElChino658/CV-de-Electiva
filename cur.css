@@ -83,3 +83,86 @@ body{
     width: 100%;
     margin: 20px auto;  
 }
+
+.photo{
+    display: none;
+}
+
+
+
+@media (max-width: 600px){
+
+    #padre{
+    width: auto;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    /* grid-template-rows: repeat(3, 1fr); */
+    grid-template-rows: auto;
+    background: white;
+    overflow: hidden;
+    }
+
+    #nombre{
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+    }
+
+    #contacto{
+        grid-column: 1 / 2;
+        grid-row: 3 / 4;
+        padding: 0;
+    }
+
+    #trayectoria{
+        grid-column: 1 / 2;
+        grid-row: 2 / 3;
+        padding: 10px;
+    }
+    
+    .foto{
+        display: none;
+    }
+
+    .photo{
+        display: inline;
+        width: 150px;
+        height: auto;
+        border: 5px solid white;
+        border-radius: 50%;
+        margin: 10px;
+    }
+
+    .example{
+        height: auto;
+        padding: 20px;
+        margin: 0;
+    }
+
+    .example-2{
+    background-color: #183B85;
+    color: white;
+    height: auto;
+    padding: 10px;
+    text-align: left;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    height: auto;
+    }
+
+    .name{
+        padding: 0;
+    }
+
+    .yo{
+        padding: 10px;
+    }
+
+    .franja-blanca{
+        margin: 10px;
+        margin-left: -5px;
+    }
+
+
+}
