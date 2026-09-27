@@ -90,7 +90,7 @@ body{
 
 
 
-@media (max-width: 600px){
+@media (max-width: 640px){
 
     #padre{
     width: auto;
@@ -164,6 +164,4 @@ body{
         margin: 10px;
         margin-left: -5px;
     }
-
-
 }
